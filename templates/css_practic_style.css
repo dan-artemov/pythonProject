@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2? display=swap");
+
+.zagolovok {
+  color: rgb(157, 39, 72);
+}
+
+.flag {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  /* margin: 60px;  */
+  padding: 0;
+  /* background: #000000; */
+  border: 1px solid black;
+  /* border-block-width: 10%; */
+  /* border-color: red; */
+}
+.flag > div {
+}
+.circle {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  width: 200px;
+  height: 200px;
+
+  background: red;
+  border-radius: 50%;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background: #ffe5e5;
+}
+.list-group {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: #e5ffe7;
+  border: 1px solid rgb(170, 167, 167);
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 0;
+  font: normal 18px "Roboto", sans-serif;
+  /* color: #0d6efd; */
+}
+.list-group li:nth-child(1),
+.list-group li:nth-child(2) {
+  /* color: inherit; */
+  border-bottom: 1px solid rgb(170, 167, 167);
+  /* background: #0d6efd; */
+}
+
+.list-group-item {
+  padding: 10px;
+  padding-left: 20px;
+  /* border: 1px solid rgb(170, 167, 167);
+    border-radius: 5px;
+    border-top-style: ; */
+  cursor: pointer;
+  text-decoration: none;
+  /* color: #000; */
+}
+
+.list-group-item:hover {
+  background-color: #0d6efd;
+}
+
+em {
+  color: blueviolet;
+}
+.list li {
+  font-weight: bold;
+}
+.list em {
+  font: normal 18px "Roboto", sans-serif;
+  /* font-family: 'Roboto', sans-serif
+    font-size: 40px; */
+}
+.list-group-item a {
+  color: #0b1017;
+  text-decoration: none;
+}
+.list-group-item a:hover {
+  /* text-decoration: underline; */
+  /* text-decoration-color: blueviolet; */
+  color: white;
+}
+
+.card1 {
+  width: 350px;
+  height: auto;
+  border: solid 1px rgb(170, 170, 170);
+  border-radius: 5px;
+  padding-bottom: none;
+  padding: none;
+  margin: none;
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.card-img-top {
+  width: inherit;
+  height: inherit;
+  /* border-radius: inherit; */
+  margin-bottom: 10px;
+  padding: none;
+  /* top: 100px;
+  right: 100px; */
+}
+.card-title {
+  font: 24px "Roboto";
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.card-text {
+  font: normal 18px "Roboto";
+  margin: 0 10px 10px 20px;
+  /* margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 10px; */
+}
+.btn {
+  background: #e45d80;
+  /* border: solid 1px; */
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font: normal 18px "Roboto";
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}

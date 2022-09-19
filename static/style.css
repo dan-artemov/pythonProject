@@ -1,0 +1,31 @@
+body { background-color:mistyrose;
+
+    /*background-image: url(../Images/mainbackground_.jpg);*/
+	background-image: url(Images/sakura3.gif);
+	/*background-image: url(https://pa1.narvii.com/6951/75b64d70dc386dfa5a1c86a85f260cd39817fe62r1-200-200_hq.gif);*/
+	background-repeat: repeat-x;
+	}
+nav {
+	text-align: center;	
+	background-color: black;
+
+}
+
+nav a { 
+	padding: 20px;
+	color: white;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	color:#474A51
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+	color:#474A51
+}
+
+ol li{
+	padding: 20px;
+}
